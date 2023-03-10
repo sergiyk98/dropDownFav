@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <h1>Select - випадаючий список</h1>
+
+   <div class="form-group-title">
+      Виберіть категорію:
+   </div>
+
+   <div class="form-group">
+      <div class="select-wrapper">
+         <select name="select-category" id="" class="select">
+            <option value="1">Замітки туриста</option>
+            <option value="2">Конспекти по навчанні</option>
+            <option value="3">Фотоальбом</option>
+            <option value="4">Щоденник спортсмена</option>
+         </select>
+      </div>
+   </div>
+
+   <div class="form-group">
+      <div class="dropdown">
+         <button class="dropdown__button">Виберіть категорію:<img class="dropdown__button-img" src="arrow.svg" alt=""></button>
+         <ul class="dropdown__list">
+            <li class="dropdown__list-item" data-value="travel">Замітки туриста</li>
+            <li class="dropdown__list-item" data-value="lessons">Конспекти по навчанні</li>
+            <li class="dropdown__list-item" data-value="photo">Фотоальбом</li>
+            <li class="dropdown__list-item" data-value="sport">Щоденник спортсмена</li>
+         </ul>
+         <input type="text" name="select-category" value="" class="dropdown__input-hidden">
+      </div>
+
+   </div>
+   <div class="form-group">
+      <div class="dropdown">
+         <button class="dropdown__button">Виберіть категорію:<img class="dropdown__button-img" src="arrow.svg" alt=""></button>
+         <ul class="dropdown__list">
+            <li class="dropdown__list-item" data-value="travel">Замітки туриста</li>
+            <li class="dropdown__list-item" data-value="lessons">Конспекти по навчанні</li>
+            <li class="dropdown__list-item" data-value="photo">Фотоальбом</li>
+            <li class="dropdown__list-item" data-value="sport">Щоденник спортсмена</li>
+         </ul>
+         <input type="text" name="select-category" value="" class="dropdown__input-hidden">
+      </div>
+
+   </div>
+
+   <script src="script.js"></script>
+</body>
+
+</html>
